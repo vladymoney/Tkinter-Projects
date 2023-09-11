@@ -39,13 +39,13 @@ def new_canvas():
     canvas.delete('all')
     display_pallete()
 
-# image_icon = PhotoImage(file="1.png")
-# root.iconphoto(False,image_icon)
+image_icon = PhotoImage(file = 'C:/Users/vlady/OneDrive/Desktop/Programming/Tkinter-Projects/Digital_White_Board/1.png')
+root.iconphoto(False,image_icon)
 
 # color_box=PhotoImage(file='')
 # Label(root, image=color_box, bg='#f2f3f5').place(x=10, y=2)
 
-# eraser=PhotoImage(file='2.png')
+# eraser=PhotoImage(file='C:/Users/vlady/OneDrive/Desktop/Programming/Tkinter-Projects/Digital_White_Board/2.png')
 # Button(root, image=eraser, bg='#f2f3f5').place(x=30, y=40)
 
 colors=Canvas(root, bg="#ffffff", width=37, height=300, bd=0)
